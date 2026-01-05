@@ -190,11 +190,11 @@ const Home: NextPage = () => {
           } relative z-10 max-w-3xl w-full`}
         >
           <div className="space-y-8">
-            <h1 className="text-5xl sm:text-5xl text-left bg-clip-text text-transparent bg-gradient-to-r from-[#556B2F] to-[#808000] tracking-tight relative leading-normal py-2 before:absolute before:content-['Ben_Wang'] before:inset-0 before:text-[#F0F4E3] before:blur-[30px] before:-z-10 before:opacity-50">
+            <h1 className="text-5xl sm:text-5xl text-left bg-clip-text text-transparent bg-gradient-to-r from-[#1e3a8a] to-[#1e40af] tracking-tight relative leading-normal py-2 before:absolute before:content-['Ben_Wang'] before:inset-0 before:text-[#F0F4E3] before:blur-[30px] before:-z-10 before:opacity-50">
               Hi, I'm Ben
             </h1>
 
-            <div className="text-xl text-[#556B2F] space-y-4 text-left">
+            <div className="text-xl text-[#1e3a8a] space-y-4 text-left">
               <p>
                 I am a sophomore studying Data Science and Sustainable Development at Columbia University
               </p>
@@ -206,15 +206,15 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="fixed bottom-4 right-4 text-sm text-[#556B2F] font-crimson z-50 flex items-center gap-2 px-3 py-1.5 rounded-full backdrop-blur-sm">
+        <div className="fixed bottom-4 right-4 text-sm text-[#1e3a8a] font-crimson z-50 flex items-center gap-2 px-3 py-1.5 rounded-full backdrop-blur-sm">
           Status:
-          <div className="w-2 h-2 rounded-full bg-[#556B2F] animate-pulse"></div>
+          <div className="w-2 h-2 rounded-full bg-[#1e3a8a] animate-pulse"></div>
         </div>
 
         <div className="fixed md:left-4 md:top-1/2 md:-translate-y-1/2 top-4 left-0 right-0 md:right-auto flex flex-row md:flex-col items-center justify-center md:justify-center gap-2 z-50">
           <Link
             href="https://github.com/benwang13"
-            className="transform transition-all duration-300 hover:scale-110 hover:-translate-y-1 text-[#556B2F] hover:text-[#6B8E23] backdrop-blur-sm p-2 rounded-full"
+            className="transform transition-all duration-300 hover:scale-110 hover:-translate-y-1 text-[#1e3a8a] hover:text-[#1e40af] backdrop-blur-sm p-2 rounded-full"
           >
             <svg
               className="w-[30px] h-[30px] opacity-70 hover:opacity-100 transition-opacity"
@@ -227,7 +227,7 @@ const Home: NextPage = () => {
           </Link>
           <Link
             href="https://www.linkedin.com/in/benwang13/"
-            className="transform transition-all duration-300 hover:scale-110 hover:-translate-y-1 text-[#556B2F] hover:text-[#6B8E23] backdrop-blur-sm p-2 rounded-full"
+            className="transform transition-all duration-300 hover:scale-110 hover:-translate-y-1 text-[#1e3a8a] hover:text-[#1e40af] backdrop-blur-sm p-2 rounded-full"
           >
             <svg
               className="w-[30px] h-[30px] opacity-70 hover:opacity-100 transition-opacity"
@@ -240,7 +240,7 @@ const Home: NextPage = () => {
           </Link>
           <Link
             href="/Wang_Benjamin_Resume.pdf"
-            className="transform transition-all duration-300 hover:scale-110 hover:-translate-y-1 text-[#556B2F] hover:text-[#6B8E23] backdrop-blur-sm p-2 rounded-full"
+            className="transform transition-all duration-300 hover:scale-110 hover:-translate-y-1 text-[#1e3a8a] hover:text-[#1e40af] backdrop-blur-sm p-2 rounded-full"
           >
             <svg
               className="w-[30px] h-[30px] opacity-70 hover:opacity-100 transition-opacity"
@@ -268,10 +268,10 @@ const Home: NextPage = () => {
         </div>
 
         <div className="absolute bottom-8 animate-bounce flex flex-col items-center gap-2">
-          <span className="text-sm text-[#556B2F]">see more</span>
+          <span className="text-sm text-[#1e3a8a]">see more</span>
           <div className="flex flex-col -space-y-1">
             <svg
-              className="w-4 h-4 text-[#556B2F]"
+              className="w-4 h-4 text-[#1e3a8a]"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -289,10 +289,10 @@ const Home: NextPage = () => {
       {/* See More */}
 
       {/* Main Content */}
-      <div className="bg-[#F0F4E3] text-[#556B2F]">
+      <div className="bg-[#F0F4E3] text-[#1e3a8a]">
         {/* Education Section */}
         <section className="max-w-4xl mx-auto pt-0 pb-20 px-6 relative z-20">
-          <h2 className="text-3xl font-crimson mb-12 text-left bg-clip-text text-transparent bg-gradient-to-r from-[#556B2F] to-[#808000] tracking-tight relative leading-normal py-2 before:absolute before:content-['Education'] before:inset-0 before:text-[#F0F4E3] before:blur-[30px] before:-z-10 before:opacity-50">
+          <h2 className="text-3xl font-crimson mb-12 text-left bg-clip-text text-transparent bg-gradient-to-r from-[#1e3a8a] to-[#1e40af] tracking-tight relative leading-normal py-2 before:absolute before:content-['Education'] before:inset-0 before:text-[#F0F4E3] before:blur-[30px] before:-z-10 before:opacity-50">
             Education
           </h2>
           <div className="space-y-8">
@@ -315,16 +315,16 @@ const Home: NextPage = () => {
                   </Link>
                 )}
                 <div className="text-center md:text-left">
-                  <h3 className="text-xl font-semibold text-[#556B2F]">
+                  <h3 className="text-xl font-semibold text-[#1e3a8a]">
                     <Link
                       href={edu.link}
-                      className="hover:underline hover:text-[#6B8E23]"
+                      className="hover:underline hover:text-[#1e40af]"
                     >
                       {edu.school}
                     </Link>
                   </h3>
-                  <p className="text-[#808000]">{edu.degree}</p>
-                  <p className="text-[#556B2F] mt-2">{edu.description}</p>
+                  <p className="text-[#1e40af]">{edu.degree}</p>
+                  <p className="text-[#1e3a8a] mt-2">{edu.description}</p>
                 </div>
               </div>
             ))}
@@ -332,7 +332,7 @@ const Home: NextPage = () => {
         </section>
         {/* Experience Section */}
         <section className="max-w-4xl mx-auto py-20 px-6 border-t border-[#D3D9C8] relative z-20">
-          <h2 className="text-3xl font-crimson mb-12 text-left bg-clip-text text-transparent bg-gradient-to-r from-[#556B2F] to-[#808000] tracking-tight relative leading-normal py-2 before:absolute before:content-['Experience'] before:inset-0 before:text-[#F0F4E3] before:blur-[30px] before:-z-10 before:opacity-50">
+          <h2 className="text-3xl font-crimson mb-12 text-left bg-clip-text text-transparent bg-gradient-to-r from-[#1e3a8a] to-[#1e40af] tracking-tight relative leading-normal py-2 before:absolute before:content-['Experience'] before:inset-0 before:text-[#F0F4E3] before:blur-[30px] before:-z-10 before:opacity-50">
             Experience
           </h2>
           <div className="space-y-0">
@@ -356,20 +356,20 @@ const Home: NextPage = () => {
                 )}
                 <div className="flex-grow">
                   <div className="flex md:items-center flex-col md:flex-row md:gap-2">
-                    <h3 className="text-xl font-semibold text-[#556B2F]">
+                    <h3 className="text-xl font-semibold text-[#1e3a8a]">
                       <Link
                         href={exp.link}
-                        className="hover:underline hover:text-[#6B8E23] transition-colors"
+                        className="hover:underline hover:text-[#1e40af] transition-colors"
                       >
                         {exp.company}
                       </Link>
                     </h3>
-                    <span className="text-[#556B2F] hidden md:inline">•</span>
-                    <span className="text-[#556B2F]">{exp.role}</span>
+                    <span className="text-[#1e3a8a] hidden md:inline">•</span>
+                    <span className="text-[#1e3a8a]">{exp.role}</span>
                   </div>
                   <ul className="mt-2 space-y-1">
                     {exp.description.map((desc, i) => (
-                      <li key={i} className="text-[#556B2F]">
+                      <li key={i} className="text-[#1e3a8a]">
                         {desc}
                       </li>
                     ))}
@@ -381,7 +381,7 @@ const Home: NextPage = () => {
         </section>
         {/* Projects Section */}
         <section className="max-w-4xl mx-auto py-20 px-6 border-t border-[#D3D9C8] relative z-20">
-          <h2 className="text-3xl font-crimson mb-12 text-left bg-clip-text text-transparent bg-gradient-to-r from-[#556B2F] to-[#808000] tracking-tight relative leading-normal py-2 before:absolute before:content-['Projects'] before:inset-0 before:text-[#F0F4E3] before:blur-[30px] before:-z-10 before:opacity-50">
+          <h2 className="text-3xl font-crimson mb-12 text-left bg-clip-text text-transparent bg-gradient-to-r from-[#1e3a8a] to-[#1e40af] tracking-tight relative leading-normal py-2 before:absolute before:content-['Projects'] before:inset-0 before:text-[#F0F4E3] before:blur-[30px] before:-z-10 before:opacity-50">
             Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -404,10 +404,10 @@ const Home: NextPage = () => {
                     />
                   </div>
                 )}
-                <h3 className="text-xl font-semibold text-[#556B2F] mb-2">
+                <h3 className="text-xl font-semibold text-[#1e3a8a] mb-2">
                   {project.title}
                 </h3>
-                <p className="text-[#556B2F] mb-4 flex-grow">
+                <p className="text-[#1e3a8a] mb-4 flex-grow">
                   {project.description}
                 </p>
                 <div className="space-y-4">
@@ -415,7 +415,7 @@ const Home: NextPage = () => {
                     {project.technologies.map((tech, i) => (
                       <span
                         key={i}
-                        className="px-2 py-0.5 text-sm rounded-full bg-[#8F9779]/30 text-[#556B2F]"
+                        className="px-2 py-0.5 text-sm rounded-full bg-[#8F9779]/30 text-[#1e3a8a]"
                       >
                         {tech}
                       </span>
@@ -425,7 +425,7 @@ const Home: NextPage = () => {
                     {project.githubLink && (
                       <Link
                         href={project.githubLink}
-                        className="text-[#6B8E23] hover:underline transition-colors mr-4"
+                        className="text-[#1e40af] hover:underline transition-colors mr-4"
                         target="_blank"
                       >
                         GitHub
@@ -434,7 +434,7 @@ const Home: NextPage = () => {
                     {project.liveLink && (
                       <Link
                         href={project.liveLink}
-                        className="text-[#6B8E23] hover:underline transition-colors"
+                        className="text-[#1e40af] hover:underline transition-colors"
                         target="_blank"
                       >
                         Website
@@ -449,23 +449,23 @@ const Home: NextPage = () => {
 
         {/* Interests section */}
         <section className="max-w-4xl mx-auto py-20 px-6 border-t border-[#D3D9C8] relative z-20">
-          <h2 className="text-3xl font-crimson mb-8 text-left bg-clip-text text-transparent bg-gradient-to-r from-[#556B2F] to-[#808000] tracking-tight relative leading-normal py-2 before:absolute before:content-['Hobbies_&_Fun'] before:inset-0 before:text-[#F0F4E3] before:blur-[30px] before:-z-10 before:opacity-50">
+          <h2 className="text-3xl font-crimson mb-8 text-left bg-clip-text text-transparent bg-gradient-to-r from-[#1e3a8a] to-[#1e40af] tracking-tight relative leading-normal py-2 before:absolute before:content-['Hobbies_&_Fun'] before:inset-0 before:text-[#F0F4E3] before:blur-[30px] before:-z-10 before:opacity-50">
             {"Other interests! :)"}
           </h2>
           <div className="font-crimson flex flex-wrap gap-4">
-            <span className="px-4 py-2 rounded-full bg-[#8F9779]/50 text-[#556B2F]">
+            <span className="px-4 py-2 rounded-full bg-[#8F9779]/50 text-[#1e3a8a]">
               Ultimate Frisbee
             </span>
-            <span className="px-4 py-2 rounded-full bg-[#8F9779]/50 text-[#556B2F]">
+            <span className="px-4 py-2 rounded-full bg-[#8F9779]/50 text-[#1e3a8a]">
               Chess
             </span>
-            <span className="px-4 py-2 rounded-full bg-[#8F9779]/50 text-[#556B2F]">
+            <span className="px-4 py-2 rounded-full bg-[#8F9779]/50 text-[#1e3a8a]">
               Running
             </span>
-            <span className="px-4 py-2 rounded-full bg-[#8F9779]/50 text-[#556B2F]">
+            <span className="px-4 py-2 rounded-full bg-[#8F9779]/50 text-[#1e3a8a]">
               Trumpet
             </span>
-            <span className="px-4 py-2 rounded-full bg-[#8F9779]/50 text-[#556B2F]">
+            <span className="px-4 py-2 rounded-full bg-[#8F9779]/50 text-[#1e3a8a]">
               Public Health (first aid and cpr certified!)
             </span>
           </div>
