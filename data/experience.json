@@ -1,0 +1,30 @@
+[
+  {
+    "company": "Global Columbia Collaboratory, Columbia University",
+    "role": "Global Fellow",
+    "link": "https://www.gccgambia.org/",
+    "description": ["May 2025 – August 2025"],
+    "image": "/employment/columbiagloballogo.jpeg"
+  },
+  {
+    "company": "Barnard Environmental Science Department",
+    "role": "Research Assistant",
+    "link": "https://envsci.barnard.edu/",
+    "description": ["October 2025- Present"],
+    "image": "/employment/barnardlogo.png"
+  },
+  {
+    "company": "Oxford Royale",
+    "role": "Program Facilitator",
+    "link": "https://www.oxford-royale.com/",
+    "description": [ "June 2025 - July 2025"],
+    "image": "/employment/oxfordroyalelogo.png"
+  },
+  {
+    "company": "American Museum of Natural History",
+    "role": "Research Intern",
+    "link": "https://www.amnh.org/",
+    "description": [ "August 2022 - June 2023"],
+    "image": "/employment/amnhlogo.jpg"
+  }
+]

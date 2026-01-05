@@ -1,0 +1,8 @@
+[
+  {
+    "title": "NYC Heat Vulnerability Site Analysis",
+    "description": "Used ArcGIS Pro, geospatial analytics, and SQL-based filtering to combine heat index, vegetative cover, and cooling-access attributes for a site suitability analysis to locate NYC neighborhoods most vulnerable to excessive heat.",
+    "liveLink": "https://arcg.is/nD9Hm",
+    "technologies": ["ArcGIS", "SQL", "Python"]
+  }
+]
